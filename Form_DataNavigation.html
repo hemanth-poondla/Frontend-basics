@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <title> Form Data Navigation</title>
+    
+  </head>
+  <body>
+
+  <form action="" method="post">
+  <p>Month</p>
+  <select name = "Month" > <!-- multiple allow to slect more than 1 option . press ctrl and click the options you want-->
+  <option>Jan</option>
+  <option selected>Feb</option> <!-- default selection value -->
+  <option>Mar</option>
+  <option>Apr</option>
+
+  </select>
+  <p>Share your experience</p>
+  <textarea name = "experience" rows = "10" cols = "30"> </textarea>
+  <br />
+  <input type = "submit" value = "Enter" />
+  </form>
+  </body>
+</html>
+
+
+<!-- diff b/w get and post 
+
+1. get 
+   url before submit - file:///C:/Users/KH9439/Desktop/HTML/Basics/Form_DataNavigation.html
+   url after submit - file:///C:/Users/KH9439/Desktop/HTML/Basics/Form_DataNavigation.html?Month=Jan&experience=+testdata
+   the entered data is now a part of the url.
+   
+2. post
+   url before submit - file:///C:/Users/KH9439/Desktop/HTML/Basics/Form_DataNavigation.html
+   url after submit - file:///C:/Users/KH9439/Desktop/HTML/Basics/Form_DataNavigation.html
+   
+   Also Get is used to just fetch the data, while post is used to update the exisiting data in the server or save it to some location
+   -->
+   

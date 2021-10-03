@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Forms</title>
+   </head>
+   <body>
+      <form>
+         <div>
+            <label for = "username">Username</label> 
+            <br>
+            <input type = "text" name = "username" id = "username" required placeholder = "Username"/>  
+		</div>
+         <div>
+		 <!-- name field is used when passing the data to the server. it goes as a json with name and value fields-->
+            <label for = "password">Password</label>
+            <br>
+            <input type = "password" name = "password" id = "password" placeholder = "Password" />
+         </div>
+		 <div>
+            <label for = "Country">Country</label>
+            <br>
+            <input type = "text" name = "Country" id = "Country" placeholder = "Country" disabled="true" /> <!-- disabled is used to disable a field. the default value is true. just disabled is also correct instead of disabled = "true" -->
+         </div>
+         <div>
+            <input type = "submit" />
+         </div>
+      </form>
+   </body>
+</html>
