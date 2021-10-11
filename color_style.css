@@ -1,0 +1,33 @@
+
+#div1{
+
+    height: 200px;
+    width: 200px;
+/*    background-color: red;*/
+    background-color: #393a7b;
+    border-width:12px;
+    border-style:solid;
+    border-color:green;
+    border-left-
+/*    background-color: rgb(25, 126, 200);*/
+/*    background-color: rgb(25, 126, 200, 1);*/
+/*    background-color: hsl();*/
+}
+
+#inner-div1{
+
+height:100px;
+/*height:100%;*/
+width:70px;
+border-width:2px;
+    border-style:dotted;
+    border-color:yellow;
+
+background-color:black;
+ }
+ 
+#outer-div2{
+height:10vh;
+width:10vw;
+background-color:red;
+  }
